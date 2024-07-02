@@ -1,0 +1,46 @@
+/* styles.css */
+.stopwatch-container {
+    max-width: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+#lap-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lap-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#lap-list li:last-child {
+    border-bottom: none;
+}
